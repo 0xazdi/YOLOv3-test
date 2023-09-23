@@ -1,4 +1,4 @@
-
+#import libraries
 import cv2
 import numpy as np
 
@@ -56,7 +56,7 @@ def findObjects(output, img):
                    (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 2)
 
 
-
+#using camera
 cap = cv2.VideoCapture(0+cv2.CAP_DSHOW)
 
 while (cap.isOpened()) :
